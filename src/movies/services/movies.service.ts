@@ -6,6 +6,7 @@ import { firstValueFrom } from 'rxjs';
 const apiKey = 'b6ff2c6383a821fb1e9ce5cda0a9b394';
 
 const apiUrl = 'https://api.themoviedb.org/3/movie/popular';
+const apiUrlMovies = 'https://api.themoviedb.org/3/movie/popular/movies';
 
 @Injectable()
 export class MoviesService {
